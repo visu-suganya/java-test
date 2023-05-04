@@ -27,4 +27,4 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Run the app
-      run: java -cp java Main
+      run: java -cp java org.example.Main
