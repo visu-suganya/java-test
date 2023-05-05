@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
-        System.out.println("SONARQUBE_TOKEN: " + System.getEnv("SONARQUBE_TOKEN"));
+        // System.out.println("SONARQUBE_TOKEN: " + System.getEnv("SONARQUBE_TOKEN"));
     }
 }
