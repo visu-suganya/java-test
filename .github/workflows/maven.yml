@@ -32,8 +32,7 @@ jobs:
 
       - name: Run the jar
         run: |
-          cd staging
-          java -jar java-test-actions-1.0-SNAPSHOT.jar
+          mvn exec:java
       - uses: actions/upload-artifact@v3
         with:
           name: Package
