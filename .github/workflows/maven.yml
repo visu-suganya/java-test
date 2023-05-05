@@ -29,4 +29,4 @@ jobs:
         run: mvn -B package --file pom.xml
       - name: Run the Main class
         run: |
-          mvn exec:java
+          mvn exec:java all
